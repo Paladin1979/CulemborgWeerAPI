@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulemborgWeerAPI", "CulemborgWeerAPI\CulemborgWeerAPI.csproj", "{4BA5F7FB-C6B3-43F9-A2D7-A293548D59C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA5F7FB-C6B3-43F9-A2D7-A293548D59C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA5F7FB-C6B3-43F9-A2D7-A293548D59C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA5F7FB-C6B3-43F9-A2D7-A293548D59C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA5F7FB-C6B3-43F9-A2D7-A293548D59C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A757086-9AC8-4751-8883-EFA20B365B15}
+	EndGlobalSection
+EndGlobal

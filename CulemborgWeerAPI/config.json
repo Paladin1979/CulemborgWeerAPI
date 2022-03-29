@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+    "CulemborgWeerDb": "Data Source=CulemborgWeer.db"
+  },
+  "NiceWeatherForLunchOutside": {
+    "MinimumTemperature": 18,
+    "MaximumHumidityPercentage": 15,
+    "MaximumCloudPercentage": 20,
+    "MaximumWindSpeed": 11.5
+  }
+}

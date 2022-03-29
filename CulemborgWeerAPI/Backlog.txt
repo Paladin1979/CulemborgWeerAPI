@@ -1,0 +1,24 @@
+﻿In a professional environment, this should be administered in something like Azure Devops. However, 
+even for personal small projects, I like to keep a file with a project that contains any work I'm 
+still planning. I also tend to do everything in English :)
+
+V - Create the rough outline for the API
+V - Create a database using entity framework
+V - Connect to and parse the Wttr.IN API
+V - Allow defining the cutoff parameters for nice weather through the config file
+V - test StoreHistoricalData procedure
+> - Manually put some entries in the historical database for demo purposes
+  - properly configure the GITHUB project
+  - Set up a test framework and implement some automated tests 
+    - unit tests w. NUnit
+    - integration tests w. SpecFlow
+    - acceptance test w. Appium
+  - Investigate: replacing the generic exception handlers in the controller by specific ones
+  - Consider: refactor "ReadDoubleFromNiceWeatherSection" to be part of a configuration object rather than a private method in the controller.
+  - Add a POST method to the API to allow writing entries to the database
+  - Create a service (new project) that polls Wttr.IN every 30 minutes during work hours and populates the historical data.
+  - Deploy the API on www.knightwatch.nl using Docker
+  - Create a XAMARIN app that uses the API to inform the user about the weather
+  - Extend the xamarin app so the user can view historical data
+  - Extend the app and API so the lunch location can be configured in the app
+  - Extend the app, API and service so a user can request historical data to be collected for his location of choice
